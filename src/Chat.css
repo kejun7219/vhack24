@@ -1,0 +1,92 @@
+.chat-container {
+    position: relative; /* Make the container relative for absolute positioning */
+    display: flex;
+    height: 655px;
+  }
+  
+  .friends-list {
+    position: absolute; /* Position the friend list absolutely */
+    top: 0; /* Align the friend list to the top */
+    bottom: 0; /* Extend the friend list to the bottom */
+    width: 200px; /* You can adjust the width as needed */
+    background-color: #f0f0f0;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .friend {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .friend-image {
+    width: 50px; /* Set the width of the image */
+    height: 50px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image circular */
+    border: 2px solid #ff00c3; /* Add a border to the image */
+    margin-right: 10px; /* Add margin to separate image from text */
+  }
+  
+  .friend:hover {
+    background-color: #e0e0e0;
+  }
+
+  .friend.selected {
+    background-color: #e0e0e0;
+  }
+
+  
+  .chat {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Ensure the chat section doesn't overflow */
+    flex: 1;
+    margin-left: 250px;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  /* Add your existing message styling here */
+
+  .user-message {
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .chat-input-form {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 95%;
+  }
+  
+  .chat-input-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .chat-input-form button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #ffa2e3;
+    color: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .chat-input-form button:hover {
+    background-color: #fcb9e7;
+  }
+  
