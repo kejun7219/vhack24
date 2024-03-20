@@ -6,7 +6,6 @@ const Header = () => {
     <header className="pink-header">
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
           <li><a href="/community">Community</a></li>
           <li><a href="/blog">Blog Post</a></li>
           <li><a href="/chat">Chat</a></li>
