@@ -12,7 +12,7 @@
 .pink-header nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 2;
+  margin: 0;
   display: flex;
   gap: 60px; /* Add gap between list items */
   margin-right: 80px;
