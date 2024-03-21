@@ -1,0 +1,53 @@
+.pink-header {
+  background-color: #ff69b4; /* Pink color */
+  color: white; /* White text */
+  width: 97.4%; /* Ensure full width */
+  padding: 10px 20px; /* Add padding for spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Align items with space between */
+  align-items: center; /* Center items vertically */
+}
+
+.pink-header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 60px; /* Add gap between list items */
+  margin-right: 25px;
+}
+
+.pink-header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth color transition */
+  font-size: 18px;
+}
+
+.pink-header nav ul li a:hover {
+  color: #ffb6c1; /* Lighter pink color on hover */
+}
+
+.logo {
+  width: 60px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Add margin for spacing */
+}
+
+.logoname {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.logo-container {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Align items vertically */
+}
+
+.words {
+  margin-right: 20px; /* Add margin for spacing */
+}
