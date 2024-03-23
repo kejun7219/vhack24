@@ -13,7 +13,7 @@ const Header = () => {
       <div className="words">
         <nav>
           <ul>
-            <li><Link to="/ommunity">Community</Link></li>
+            <li><Link to="/Community">Community</Link></li>
             <li><Link to="/BlogPost">Blog Post</Link></li>
             <li><Link to="/Chat">Chat</Link></li>
             <li><Link to="/Blog">Blog</Link></li>
