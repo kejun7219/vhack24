@@ -1,14 +1,11 @@
-
 import React from "react";
-import "./CommunityPage.css"; // Import the CSS file
-// import friend1Image from './picture/pro1.jpeg'; 
-// import friend2Image from './picture/pro2.jpeg'; 
-// import friend3Image from './picture/pro3.jpg'; 
-// import friend4Image from './picture/pro4.jpg'; 
-import friend5Image from './picture/pro5.jpg'; 
+import "./Community.css"; // Import the CSS file
+import add from './picture/add.png'
+import friend2Image from './picture/pro2.jpeg'; 
 import friend6Image from './picture/pro6.png'; 
 
 const Community = () => {
+
     return (
         <div class="Community">
             <div class="Community-container">
@@ -22,11 +19,20 @@ const Community = () => {
                     <p>Languages and Literacies</p>
                     <p>Marketing</p>
                     <p>Medicine</p>
-                </div>    
+                </div>
+
+                 <div class="picture-button">
+                    <a href="./ComPost">
+                        <button>
+                            <img src={add} alt="Add Icon" />
+                        </button>
+                    </a>
+                </div>
+
                 <div class="frame">
                     <div class="profile-container">
                         <div class="profile">
-                            <img src={friend5Image} alt="Profile" class="profile-picture" />
+                            <img src={friend2Image} alt="Profile" class="profile-picture" />
                         </div>
                         <div class="profileName">
                             <h2>John Doe</h2>
@@ -40,7 +46,7 @@ const Community = () => {
 
     Any insights, personal experiences, or resources you could share would be immensely appreciated. Thank you in advance for your help! </p>
                                 <div className="comments">
-                                    <h3>comments</h3>
+                                    <h3>Comments</h3>
                                     <div classname="comment-user">
                                         <div class="container">
                                             <div class="comment-profile">

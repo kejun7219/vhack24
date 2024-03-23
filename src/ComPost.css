@@ -1,0 +1,112 @@
+.blog-post-form {
+    max-width: 600px; /* Adjust this value as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-post-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+.question-label {
+  display: block;
+  margin-top: 20px;
+}
+
+.community-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.question-textarea {
+  width: 100%;
+  height: 200px;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+  
+  .button-row {
+    margin-bottom: 10px;
+    text-align: center; /* Center align form content */
+  }
+  
+  .button-row button {
+    margin: 0 5px; /* Adjust button spacing */
+  }
+  
+  .button-row button {
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: #ffa2e3;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Center align form content */
+    margin-top: 10px;
+  }
+  
+
+  .button-row button:hover {
+    background-color: #fcb9e7;
+    text-align: center; /* Center align form content */
+  }
+  
+
+  .submit-row button:hover {
+    background-color: #fcb9e7;
+    text-align: center; /* Center align form content */
+  }
+
+  .submit-row {
+    text-align: center; /* Center align form content */
+    margin-top: 15px; /* Increase top margin for spacing */
+  }
+  
+  .submit-row button {
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: #ffa2e3;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    align-items: center;
+    text-align: center; /* Center align form content */
+  }
+ 
+  .community-select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Set background color */
+    background-color: #f2f2f2; /* Example color */
+  }
+  
+  /* Style for the options */
+  .community-select option {
+    padding: 5px;
+  }
+  
+  /* Change the color of the dropdown arrow */
+  .community-select:after {
+    border-color: #000000; /* Example color */
+  }
+  
+  /* Change the color of the selected option */
+  .community-select option:checked {
+    background-color:#ffaae632; /* Example color */
+  }
+  
