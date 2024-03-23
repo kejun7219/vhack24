@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div style={{ 
         backgroundImage: `url(${background})`,
-        backgroundSize: 'cover',
+        backgroundSize: '99%',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
       }}>

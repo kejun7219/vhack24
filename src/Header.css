@@ -1,7 +1,7 @@
 .pink-header {
   background-color: #ff69b4; /* Pink color */
   color: white; /* White text */
-  width: 97.4%; /* Ensure full width */
+  width: 96.4%; /* Ensure full width */
   padding: 10px 20px; /* Add padding for spacing */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
   display: flex; /* Use flexbox for alignment */
@@ -15,7 +15,7 @@
   margin: 0;
   display: flex;
   gap: 60px; /* Add gap between list items */
-  margin-right: 25px;
+  margin-right: 23px;
 }
 
 .pink-header nav ul li a {
@@ -58,7 +58,7 @@
   padding: 5px; /* Padding */
   border: 1px solid #ccc; /* Border */
   border-radius: 4px; /* Border radius */
-  margin-right: 10px; /* Margin to the right */
+  margin-right: 9px; /* Margin to the right */
   margin-top: -5px;
 }
 
