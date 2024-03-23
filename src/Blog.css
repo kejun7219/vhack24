@@ -1,34 +1,27 @@
 .home-page {
-    text-align: center;
-  }
-  
-  .posts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .post {
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 300px;
-  }
-  
-  .post img {
-    max-width: 100%;
-  }
-  
-  .post button {
-    margin-top: 10px;
-  }
-  
-  .post ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .post li {
-    margin-top: 5px;
-  }
-  
+  text-align: center;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.post img {
+  max-width: 100%;
+}
+
+.post button {
+  margin-top: 10px;
+}
+
+.post ul {
+  list-style: none;
+  padding: 0;
+}
+
+.post li {
+  margin-top: 5px;
+}

@@ -14,14 +14,14 @@ const Community = () => {
             <div class="Community-container">
                 <div class= "community-names">
                 <h2>Communities</h2>
-                    <p>computer science</p>
-                    <p>engineering</p>
+                    <p>Computer Science</p>
+                    <p>Engineering</p>
                     <p>Law</p>
                     <p>Fine arts</p>
-                    <p>education</p>
-                    <p>Languages and literacies</p>
+                    <p>Education</p>
+                    <p>Languages and Literacies</p>
                     <p>Marketing</p>
-                    <p>medicine</p>
+                    <p>Medicine</p>
                 </div>    
                 <div class="frame">
                     <div class="profile-container">
