@@ -46,7 +46,7 @@
     flex: 1;
     margin-left: 250px;
   }
-  
+
   .chat-messages {
     flex: 1;
     overflow-y: auto;
@@ -90,3 +90,23 @@
     background-color: #fcb9e7;
   }
   
+/* Update the .header styles */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff; /* Add a background color */
+  position: absolute; /* Position the header absolutely */
+  top: 0; /* Position it at the top of the chat container */
+  left: 0; /* Align it to the left */
+  right: 0; /* Align it to the right */
+  z-index: 1; /* Ensure it appears above other content */
+}
+
+.header-container {
+  position: relative; /* Make the container relative for absolute positioning */
+  display: flex;
+  flex-direction: column; /* Ensure children are stacked vertically */
+  height: 100%; /* Occupy the full height of the parent */
+}

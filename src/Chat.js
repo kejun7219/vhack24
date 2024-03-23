@@ -1,10 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import './Chat.css'; // Import CSS file for styling
+// import Header from './Header';
 import friend1Image from './picture/pro1.jpeg'; 
 import friend2Image from './picture/pro2.jpeg'; 
 import friend3Image from './picture/pro3.jpg'; 
 import friend4Image from './picture/pro4.jpg'; 
 import friend5Image from './picture/pro5.jpg'; 
+
+// Header component
+const Header = ({ friend }) => {
+  return (
+    <div className="header">
+      {friend && (
+        <>
+          <img src={friend.image} alt={friend.name} className="friend-image" />
+          <div className="friend-info">
+            <span className="friend-name">{friend.name}</span>
+            {/* You can add more information about the friend here */}
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
+
 
 const Chat = () => {
   const [friends, setFriends] = useState([]);
@@ -53,6 +72,7 @@ const Chat = () => {
 
   return (
     <div className="chat-container">
+      <Header friend={selectedFriend} /> {/* Render the header */}
       <div className="friends-list">
         {friends.map(friend => (
           <div
