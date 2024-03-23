@@ -6,6 +6,10 @@
     flex-direction: row;
     align-items: center;
 }
+.Community-container{
+    display: flex;
+    flex-direction: row;
+}
 
 .frame {
     flex: 1;
