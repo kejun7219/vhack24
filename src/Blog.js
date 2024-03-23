@@ -7,6 +7,7 @@ import picture from './picture/pro7.png';
 import picture2 from './picture/pro8.png';
 import add from './picture/add.png'
 
+
 const Blog = () => {
   return (
     <div className="home-page">
