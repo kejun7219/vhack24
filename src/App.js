@@ -5,7 +5,7 @@ import Community  from './Community';
 import BlogPost from './BlogPost';
 import Chat from './Chat';
 import Blog from './Blog';
-
+import ComPost from './ComPost';
 import './App.css';
 
 function App() {
@@ -20,6 +20,8 @@ function App() {
           <Route path="/BlogPost" element={<BlogPost />} />
           <Route path="/Chat" element={<Chat />} />
           <Route path="/Blog" element={<Blog />} />
+          <Route path="/ComPost" element={<ComPost />} />
+
         </Routes>
       </div>
     </Router>

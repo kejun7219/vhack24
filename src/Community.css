@@ -125,4 +125,23 @@
     color: #000000;
     border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 11px;
+}
+
+.picture-button {
+    position: absolute;
+    top: 90px; /* Adjust top position as needed */
+    right: 62px; /* Adjust right position as needed */
+}
+
+.picture-button button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.picture-button button img {
+    width: 30px; /* Adjust the size of the picture button */
+    height: 30px;
 }
