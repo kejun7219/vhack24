@@ -1,0 +1,75 @@
+.blog-post-form {
+    max-width: 1450px; /* Adjust this value as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-post-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .blog-post-form input[type="text"],
+  .blog-post-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+  }
+  
+  .content-textarea {
+    height: 200px; /* Fixed height */
+    resize: none; /* Disable manual resizing */
+  }
+  
+  .button-row {
+    margin-bottom: 10px;
+    text-align: center; /* Center align form content */
+  }
+  
+  .button-row button {
+    margin: 0 5px; /* Adjust button spacing */
+  }
+  
+  .button-row button {
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: #ffa2e3;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Center align form content */
+    margin-top: 10px;
+  }
+  
+
+  .button-row button:hover {
+    background-color: #fcb9e7;
+    text-align: center; /* Center align form content */
+  }
+  
+
+  .submit-row button:hover {
+    background-color: #fcb9e7;
+    text-align: center; /* Center align form content */
+  }
+
+  .submit-row {
+    text-align: center; /* Center align form content */
+    margin-top: 25px; /* Increase top margin for spacing */
+  }
+  
+  .submit-row button {
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: #ffa2e3;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    align-items: center;
+    text-align: center; /* Center align form content */
+  }
+  
