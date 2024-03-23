@@ -14,9 +14,6 @@ function App() {
       <div>
         <Header />
         <Routes>
-          {/* Define your routes using Route components */}
-          {/* Make sure to uncomment and import CommunityPage and BlogPage */}
-          {/* <Blog />import Header from './Header'; */}
           <Route path="/Community" element={<Community />} />
           <Route path="/BlogPost" element={<BlogPost />} />
           <Route path="/Chat" element={<Chat />} />
