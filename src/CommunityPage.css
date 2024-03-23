@@ -7,24 +7,6 @@
     align-items: center;
 }
 
-.Community-container{
-    display: flex;
-    flex-direction: row;
-}
-
-.community-names p{
-    text-align: left;
-    margin-left: 20px;
-    margin-top: -5px;
-}
-.community-names p:hover {
-    color: blue; /* Change text color on hover */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    text-decoration: underline; /* Add underline on hover */
-    
-}
-
-
 .frame {
     flex: 1;
     border: 2px solid #ccc; /* Add border */

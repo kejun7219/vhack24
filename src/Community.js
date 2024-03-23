@@ -1,10 +1,10 @@
 
 import React from "react";
 import "./CommunityPage.css"; // Import the CSS file
-import friend1Image from './picture/pro1.jpeg'; 
-import friend2Image from './picture/pro2.jpeg'; 
-import friend3Image from './picture/pro3.jpg'; 
-import friend4Image from './picture/pro4.jpg'; 
+// import friend1Image from './picture/pro1.jpeg'; 
+// import friend2Image from './picture/pro2.jpeg'; 
+// import friend3Image from './picture/pro3.jpg'; 
+// import friend4Image from './picture/pro4.jpg'; 
 import friend5Image from './picture/pro5.jpg'; 
 import friend6Image from './picture/pro6.png'; 
 
