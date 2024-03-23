@@ -7,11 +7,17 @@ import Chat from './Chat';
 import Blog from './Blog';
 import ComPost from './ComPost';
 import './App.css';
+import background from './picture/background2.jpg';
 
 function App() {
   return (
     <Router>
-      <div>
+      <div style={{ 
+        backgroundImage: `url(${background})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+      }}>
         <Header />
         <Routes>
           <Route path="/Community" element={<Community />} />
