@@ -72,19 +72,21 @@ const Chat = () => {
 
   return (
     <div className="chat-container">
-      <Header friend={selectedFriend} /> {/* Render the header */}
-      <div className="friends-list">
-        {friends.map(friend => (
-          <div
-            key={friend.id}
-            className={`friend ${selectedFriend && selectedFriend.id === friend.id ? 'selected' : ''}`}
-            onClick={() => setSelectedFriend(friend)}
-          >
-            <img src={friend.image} alt={friend.name} className="friend-image" />
-            {friend.name}
-          </div>
-        ))}
-      </div>
+  <div className="friends-list-container">
+    <Header friend={selectedFriend} /> {/* Render the header */}
+    <div className="friends-list">
+      {friends.map(friend => (
+        <div
+          key={friend.id}
+          className={`friend ${selectedFriend && selectedFriend.id === friend.id ? 'selected' : ''}`}
+          onClick={() => setSelectedFriend(friend)}
+        >
+          <img src={friend.image} alt={friend.name} className="friend-image" />
+          {friend.name}
+        </div>
+      ))}
+    </div>
+  </div>
       <div className="chat">
         <div className="chat-messages">
           {selectedFriend &&

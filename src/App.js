@@ -7,17 +7,11 @@ import Chat from './Chat';
 import Blog from './Blog';
 import ComPost from './ComPost';
 import './App.css';
-import background from './picture/background2.jpg';
+// import background from './picture/background2.jpg';
 
 function App() {
   return (
     <Router>
-      <div style={{ 
-        backgroundImage: `url(${background})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
-      }}>
         <Header />
         <Routes>
           <Route path="/Community" element={<Community />} />
@@ -28,7 +22,6 @@ function App() {
           <Route path="/" element={<Navigate to="/Blog" />} />
 
         </Routes>
-      </div>
     </Router>
   );
 }
