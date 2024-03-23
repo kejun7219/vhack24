@@ -1,7 +1,7 @@
 import React from 'react';
 // import Post from './Post';
 import './Blog.css';
-import friend1Image from './picture/pro1.jpeg'; 
+import friend5Image from './picture/pro1.jpeg'; 
 import picture from './picture/pro7.png';
 
 // const initialPosts = [
@@ -33,7 +33,7 @@ const Blog = () => {
       <div class="blog-frame">
         <div class="profile-container">
           <div class="profile">
-            <img src={friend1Image} alt="Profile" class="profile-picture" />
+            <img src={friend5Image} alt="Profile" class="profile-picture" />
           </div>
           <div class="profileName">
             <h2>John Doe</h2>
