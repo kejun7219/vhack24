@@ -30,6 +30,9 @@ function BlogPost() {
   };
 
   return (
+
+    <div className="blog-post">
+    <h1>Share Your Blog Here</h1>
     <form className="blog-post-form" onSubmit={handleSubmit}>
       <div>
         <label>Title:</label>
@@ -49,15 +52,16 @@ function BlogPost() {
           <input id="file-upload" type="file" accept="image/*" onChange={handleImageChange} />
         </label> */}
         <button type="button">Photo/Video</button>
-        <button type="button">Tag People</button>
+        {/* <button type="button">Tag People</button> */}
         <button type="button">Feeling/Activity</button>
-        <button type="button">Check In</button>
+        {/* <button type="button">Check In</button> */}
       </div>
 
       <div className = "submit-row">
         <button type="submit">Post</button>
       </div>
     </form>
+    </div>
   );
 }
 

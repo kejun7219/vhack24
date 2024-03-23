@@ -5,34 +5,21 @@ import friend1Image from './picture/pro1.jpeg';
 import friend2Image from './picture/pro2.jpeg';
 import picture from './picture/pro7.png';
 import picture2 from './picture/pro8.png';
-
-// const initialPosts = [
-//   {
-//     id: 1,
-//     user: 'John Doe',
-//     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-//     imageUrl: 'https://via.placeholder.com/150',
-//     likes: 10,
-//     comments: [
-//       { id: 1, user: 'Jane Smith', comment: 'Nice post!' },
-//       { id: 2, user: 'Alice', comment: 'Great!' }
-//     ]
-//   },
-//   {
-//     id: 2,
-//     user: 'Alice',
-//     content: 'Nulla facilisi. Ut fringilla velit vel nisi consequat.',
-//     imageUrl: 'https://via.placeholder.com/150',
-//     likes: 20,
-//     comments: []
-//   },
-//   // Add more posts as needed
-// ];
+import add from './picture/add.png'
 
 const Blog = () => {
   return (
     <div className="home-page">
       <h1>BLOG POSTS</h1>
+
+      <div class="blog-picture-button">
+            <a href="./BlogPost">
+              <button>
+                  <img src={add} alt="Add Icon" />
+              </button>
+            </a>
+      </div>
+
       <div class="blog-frame">
         <div class="profile-container">
 

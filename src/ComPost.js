@@ -24,6 +24,8 @@ function ComPost() {
   };
 
   return (
+    <div className="com-post">
+    <h1>Feel Free to Ask Your Questions</h1>
     <form className="blog-post-form" onSubmit={handleSubmit}>
 <div>
   <label>Select Community:</label>
@@ -54,8 +56,10 @@ function ComPost() {
         <button type="submit">Post</button>
       </div>
     </form>
+  </div>
   );
 }
+
 
 export default ComPost;
 

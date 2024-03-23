@@ -1,7 +1,7 @@
 import React from "react";
 import "./Community.css"; // Import the CSS file
 import add from './picture/add.png'
-import friend1Image from './picture/pro1.jpeg'; 
+import friend2Image from './picture/pro2.jpeg'; 
 import friend6Image from './picture/pro6.png'; 
 
 const Community = () => {
@@ -32,7 +32,7 @@ const Community = () => {
                 <div class="frame">
                     <div class="profile-container">
                         <div class="profile">
-                            <img src={friend1Image} alt="Profile" class="profile-picture" />
+                            <img src={friend2Image} alt="Profile" class="profile-picture" />
                         </div>
                         <div class="profileName">
                             <h2>John Doe</h2>
