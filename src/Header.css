@@ -1,7 +1,7 @@
 .pink-header {
   background-color: #ff69b4; /* Pink color */
   color: white; /* White text */
-  width: 96.4%; /* Ensure full width */
+  width: 97.35%; /* Ensure full width */
   padding: 10px 20px; /* Add padding for spacing */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
   display: flex; /* Use flexbox for alignment */
