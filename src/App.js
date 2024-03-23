@@ -12,6 +12,12 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <div style={{ 
+        backgroundImage: `url(${background})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+      }}>
         <Header />
         <Routes>
           <Route path="/Community" element={<Community />} />
