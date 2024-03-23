@@ -2,7 +2,7 @@
     /* Add your styles for the CommunityPage component here */
     /* Example styles */
     padding: 20px;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     flex-direction: row;
     align-items: center;
 }
@@ -81,7 +81,7 @@
 
 .comments {
     margin-top: 10px;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
     font-size: 17px;
     border-top: 2px solid #cccccc;
 

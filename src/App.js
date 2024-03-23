@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Header from './Header';
 import Community  from './Community';
 import BlogPost from './BlogPost';
@@ -14,13 +14,12 @@ function App() {
       <div>
         <Header />
         <Routes>
-          {/* Define your routes using Route components */}
-          {/* Make sure to uncomment and import CommunityPage and BlogPage */}
           <Route path="/Community" element={<Community />} />
           <Route path="/BlogPost" element={<BlogPost />} />
           <Route path="/Chat" element={<Chat />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/ComPost" element={<ComPost />} />
+          <Route path="/" element={<Navigate to="/Blog" />} />
 
         </Routes>
       </div>

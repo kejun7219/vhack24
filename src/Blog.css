@@ -108,3 +108,21 @@
   margin-left: auto;
   color: #999;
 }
+
+.blog-picture-button {
+  position: absolute;
+  top: 110px; /* Adjust top position as needed */
+  right: 270px; /* Adjust right position as needed */
+}
+
+.blog-picture-button button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.blog-picture-button button img {
+  width: 30px; /* Adjust the size of the picture button */
+  height: 30px;
+}
