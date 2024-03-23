@@ -11,6 +11,17 @@
     flex-direction: row;
 }
 
+.community-names p{
+    margin-top: -10px;
+    margin-left: 24px;
+}
+
+.community-names p:hover{
+    color: gray; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+
+}
+
 .frame {
     flex: 1;
     border: 2px solid #ccc; /* Add border */
