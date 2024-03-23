@@ -50,4 +50,21 @@
 
 .words {
   margin-right: 20px; /* Add margin for spacing */
+  font-family: cursive;
+}
+
+.search-bar input[type="text"] {
+  flex: 1; /* Take up remaining space */
+  padding: 5px; /* Padding */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 4px; /* Border radius */
+  margin-right: 10px; /* Margin to the right */
+  margin-top: -5px;
+}
+
+.search-bar button img.search {
+  width: 13px; /* Adjust the width to make the icon smaller */
+  height: 13px; /* Adjust the height proportionally */
+  margin-bottom: 4px;
+
 }
