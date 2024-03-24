@@ -23,6 +23,9 @@ Blog posts are section is where people posts about their career journey, inclusi
 ## Community queries
 Community is where people, especially youths to ask any questions regarding anything related to career, which could also be sorted by fields of work, in order to get a better understanding of the modern job market.
 
+## Video 
+https://drive.google.com/file/d/1pIegibALbcN7TLR_woLayk79Uk-H3KzG/view?usp=sharing
+
 ## Chat
 Users can chat to each other if let say they are very interested to a particular person's career journey, they can approach them by chat with them to understand about their journey pathway further
 
