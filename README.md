@@ -2,7 +2,7 @@
 - Tan Ke Jun
 - Ang Chin Zhen
 
-## Description
+## Career Journey Hub
 In response to the evolving demands of Malaysia's job market, Career Journey Hub has been developed to address the growing gap in knowledge, skills, and entrepreneurial mindset among youths. Our platform aims to enhance and nurture these essential qualities by providing access to a wealth of successful stories and career journeys shared by experts and experienced professionals. Through these insights, youths gain valuable understanding of the dynamic nature of career paths, equipping them with the necessary knowledge to thrive in the modern job market. Additionally, our community channel offers a platform for users to ask questions and seek guidance across various career domains, including but not limited to computer science, law, education, language and literacies, and medicine. By fostering a collaborative environment and facilitating learning opportunities, Career Journey Hub aims to empower youths to navigate their career journeys with confidence and success.
 
 ## Technologies used
@@ -11,7 +11,6 @@ In response to the evolving demands of Malaysia's job market, Career Journey Hub
 - HTML
 
 ## Features
-
 Essentially our website has 3 main features,
 - Blog Posts
 - Community queries
@@ -42,5 +41,5 @@ To run this project locally, follow these steps:
 4. Start the development server
 ### `npm run start`
 
-## Video 
+## Demo Video 
 https://drive.google.com/file/d/1pIegibALbcN7TLR_woLayk79Uk-H3KzG/view?usp=sharing
