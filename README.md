@@ -1,4 +1,6 @@
-# CareerVoyagers
+# Vhack Case Study 3: Empowering Youth For Future Workforce 
+
+## CareerVoyagers
 - Tan Ke Jun
 - Ang Chin Zhen
 
