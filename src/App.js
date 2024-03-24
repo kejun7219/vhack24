@@ -7,11 +7,19 @@ import Chat from './Chat';
 import Blog from './Blog';
 import ComPost from './ComPost';
 import './App.css';
-// import background from './picture/background2.jpg';
+import backgroundImage from './picture/background2.jpg';
 
 function App() {
   return (
     <Router>
+            <div style={{ 
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '100vh', // Ensure the background covers the entire viewport height
+        overflow: 'hidden', // Prevent content from overflowing
+        backgroundAttachment: 'fixed' // Make the background image fixed/static
+      }}>
         <Header />
         <Routes>
           <Route path="/Community" element={<Community />} />
@@ -22,6 +30,7 @@ function App() {
           <Route path="/" element={<Navigate to="/Blog" />} />
 
         </Routes>
+      </div>
     </Router>
   );
 }
