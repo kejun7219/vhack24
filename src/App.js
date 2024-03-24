@@ -16,9 +16,9 @@ function App() {
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        minHeight: '100vh', // Ensure the background covers the entire viewport height
-        overflow: 'hidden', // Prevent content from overflowing
-        backgroundAttachment: 'fixed' // Make the background image fixed/static
+        minHeight: '100vh', 
+        overflow: 'hidden', 
+        backgroundAttachment: 'fixed' 
       }}>
         <Header />
         <Routes>
