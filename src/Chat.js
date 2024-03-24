@@ -7,22 +7,36 @@ import friend3Image from './picture/pro3.jpg';
 import friend4Image from './picture/pro4.jpg'; 
 import friend5Image from './picture/pro5.jpg'; 
 
-// Header component
+import phone from './picture/phone-call.png'; 
+import video from './picture/video-camera.png';
+import more from './picture/more.png';
+
+
 const Header = ({ friend }) => {
   return (
-    <div className="header">
+    <>
       {friend && (
-        <>
-          <img src={friend.image} alt={friend.name} className="friend-image" />
+        <div className="header">
           <div className="friend-info">
+            <img src={friend.image} alt={friend.name} className="friend-image" />
             <span className="friend-name">{friend.name}</span>
-            {/* You can add more information about the friend here */}
           </div>
-        </>
+          {/* Add logos */}
+          <div className="logos-container">
+            {/* Logo 1 */}
+            <img src={phone} alt="Logo 1" className="logo" />
+            {/* Logo 2 */}
+            <img src={video} alt="Logo 2" className="logo" />
+            {/* Logo 3 */}
+            <img src={more} alt="Logo 3" className="logo" />
+          </div>
+        </div>
       )}
-    </div>
+    </>
   );
 };
+
+
 
 
 const Chat = () => {
@@ -72,30 +86,30 @@ const Chat = () => {
 
   return (
     <div className="chat-container">
-  <div className="friends-list-container">
-    <Header friend={selectedFriend} /> {/* Render the header */}
-    <div className="friends-list">
-      {friends.map(friend => (
-        <div
-          key={friend.id}
-          className={`friend ${selectedFriend && selectedFriend.id === friend.id ? 'selected' : ''}`}
-          onClick={() => setSelectedFriend(friend)}
-        >
-          <img src={friend.image} alt={friend.name} className="friend-image" />
-          {friend.name}
-        </div>
-      ))}
+    <div className="friends-list-container">
+      <div className="friends-list">
+        {friends.map(friend => (
+          <div
+            key={friend.id}
+            className={`friend ${selectedFriend && selectedFriend.id === friend.id ? 'selected' : ''}`}
+            onClick={() => setSelectedFriend(friend)}
+          >
+            <img src={friend.image} alt={friend.name} className="friend-image" />
+            {friend.name}
+          </div>
+        ))}
+      </div>
     </div>
-  </div>
-      <div className="chat">
-        <div className="chat-messages">
-          {selectedFriend &&
-            selectedFriend.messages.map((message, index) => (
-              <div key={index} className={`message ${message.sender === 'user' ? 'user-message' : ''}`}>
-                {message.text}
-              </div>
-            ))}
-        </div>
+    <div className="chat">
+      <div className="chat-messages">
+        <Header friend={selectedFriend} /> {/* Move the header here */}
+        {selectedFriend &&
+          selectedFriend.messages.map((message, index) => (
+            <div key={index} className={`message ${message.sender === 'user' ? 'user-message' : ''}`}>
+              {message.text}
+            </div>
+          ))}
+      </div>
         <form onSubmit={handleMessageSubmit} className="chat-input-form">
           <input
             type="text"
@@ -107,7 +121,8 @@ const Chat = () => {
           <button type="submit">Send</button>
         </form>
       </div>
-    </div>
+  </div>
+  
   );
 };
 
